@@ -1,0 +1,26 @@
+body{
+    background-color:#bdbdbd  ;
+}
+div{
+    margin:0% 20% 0% 20% ;
+}
+h1,h3{
+    font-family: 'Eater', cursive;
+
+}
+p {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
+a:link{
+    text-decoration: none;
+    color:#c62828;
+}
+a:hover{
+    color:darkgreen;
+}
+img{
+    width: 350px;
+    height: 300px;
+}
