@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <title>My Bio</title>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Eater|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"/>
 </head>
-<body>
-    <div>
+<body class="bg-">
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Biography </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+          Know About me
+        </span>
+        </div>
+    </nav>
+
+    <div class="mt-4 ">
         <h1>Hi I am Pratik Parajuli.</h1>
         <p> I recently graduated from UMBC and
             currently learning java web development at Montgomery
@@ -18,10 +43,11 @@
         <p>My favourite book is Murach's Java Programming Book. It is one of the best selling book.
             Both, beginner and experienced programmers have studied  this book.</p>
         <a href="https://en.wikibooks.org/wiki/Java_Programming" target="_blank">Link to Book Wikipedia</a>
-        <hr>
+
     </div>
 
-    <div>
+    <div class="mt-4">
+        <hr>
         <h3>My Favourite Places to visit</h3>
         <hr>
         <h4>Loch Raven Reservoir</h4>
@@ -32,6 +58,16 @@
 
         <a href="https://www.google.com/maps/place/Gunpowder+Falls+State+Park/@39.425937,-76.440488,15z/data=!4m2!3m1!1s0x0:0x68e5b9a6f4d913d1?sa=X&ved=0ahUKEwiZhqvu3d3bAhWIt1kKHbImCdEQ_BII1wEwDg" target="_blank">
             <img src="http://darkroom-cdn.s3.amazonaws.com/2016/08/BS-dk-gunpowder-darkroom-p3-hairston.jpg" alt="gun powder falls"/></a>
+        <hr>
     </div>
+
+    <div class="footer-copyright text-center bg-dark text-light mt-4">
+        <p>Hello</p>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 </html>
